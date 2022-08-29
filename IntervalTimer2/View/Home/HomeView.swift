@@ -217,5 +217,4 @@ struct AdMobView: UIViewRepresentable {
     }
 }
 
-//ca-app-pub-1648109753314876~3491780920
-//ca-app-pub-1648109753314876/4087495538
+
