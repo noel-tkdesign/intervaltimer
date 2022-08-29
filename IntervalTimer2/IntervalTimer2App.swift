@@ -16,14 +16,9 @@ struct IntervalTimer2App: App {
     @StateObject private var timeManager: TimeManager = .init()
     @StateObject private var soundManager: SoundManager = .init()
     @UIApplicationDelegateAdaptor (AppDelegate.self) var appDelegate
-       @Environment(\.scenePhase) private var scenePhase
+    @Environment(\.scenePhase) private var scenePhase
        
-       /*class AppDelegate: UIResponder, UIApplicationDelegate {
-           
-               func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-                   return true
-               }
-       }*/
+       
     init(){
         GADMobileAds.sharedInstance().start(completionHandler: nil)
         
